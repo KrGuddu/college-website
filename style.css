@@ -1,1 +1,263 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+html,body{
+    font-family: roboto,sans-serif,arival;
+    font-size: 16px;
+    color: #242424;
+}
+.container{
+    width: 1300px;
+    margin: 0px auto;
+    
+}
+.header{
+    background: #0055a4;
+    color: 6px;
+}
+.header b{
+    background: #fff;
+    color: ref;
+    padding: 10px;
+    font-size: 20px;
+}
+.header marquee{
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+.logo img{
+    height: 65px;
+}
+nav{
+    float: right;
+    padding: 25px 0px;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 2px 10px;
+    font-weight: 500;
+}
+.slider img{
+    width: 100%;
+}
+.bg-color{
+    background: #f0f3fa;
+}
+.main-section{
+    width: 100%;
+    float: left;
+    padding: 100px 0px 100px 0px;
+}
+.event{
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+    background: rgb(243, 240, 240);
+}
+.event b{
+    color: red;
+    font-size: 14px;
+}
+.event div{
+    padding: 10px;
+}
+.event .heading{
+    padding: 10px;
+    color: white;
+    background: #0055a4;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.event ul li{
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style:none;
+}
+.campus-news span{
+    width: 80px;
+    float: left;
+}
+.campus-news h2{
+    font-weight: 600;
+    font-size: 16px;
+}
+.campus-news h6{
+    font-weight: 500;
+    font-size: 13px;
+    color: red;
+}
+.campus-news p{
+    font-size: 14px;
+    padding-left: 80px;
+}
+.event-date{
+    background:red;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding: 8px 12px;
+    margin-right: 10px;
+}
+
+/* for about my college */
+.heading{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #0055a4;
+}
+.subhead{
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+.about-us div{
+    width: 45%;
+    float: left;
+    line-height: 30px;
+    font-size: 18px;
+}
+.about-us h4{
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+.about-us p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    line-height: 23px;
+}
+.about-us img{
+    width: 40%;
+    float: left;
+}
+.award p{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+}
+/* .award img{
+    width: 100%;
+} */
+.award b{
+    min-width: 115px;
+    float: left;
+    margin-bottom: 20px;
+}
+.award h3{
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.chairman text{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+.chairman h2{
+    font-size: 22px;
+    margin-top: 30px;
+}
+.chairman h4{
+    font-size: 16px;
+    color: red;
+    font-weight: 400;
+}
+/* .footer{
+    background: #f0f3fa;
+    padding: 40px 0px;
+    width: 50%;
+    float: left;
+}
+.footer-logo{
+    height: 70px;
+    width: auto;
+}
+.footer-sec{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+
+}
+.iframe{
+    text-align: right;
+} */
+
+
+/* why us */
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-heading{
+    color: #ee5253;
+    text-align: center;
+    font-size:35px;
+    margin-top: 50px;
+}
+.section50{
+    /* background: #ee5253; */
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding: 40px 40px 40px 40px;
+    box-sizing: border-box;
+    margin: 20px;
+    
+}
+.section50 a {
+    text-decoration: none;
+}
+
+/* footer */
+#imp-link{
+    background-color:#576574;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0px;
+}
+#footer-menu li{
+    padding-bottom:10px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
 
